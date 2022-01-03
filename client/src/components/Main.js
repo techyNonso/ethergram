@@ -75,7 +75,7 @@ class Main extends Component {
                       </li>
                       <li key={key} className="list-group-item py-2">
                         <small className="float-left mt-1 text-muted">
-                          TIPS:{" "}
+                          Balance:{" "}
                           {window.web3.utils.fromWei(
                             image.giftAmount.toString(),
                             "Ether"
@@ -83,7 +83,7 @@ class Main extends Component {
                           ETH
                         </small>
                         <button
-                          className="btn btn-link btn-sm float-right pt-0"
+                          className="btn btn-link  btn-sm float-right pt-0"
                           name={image.id}
                           onClick={(event) => {
                             let giftAmount = window.web3.utils.toWei(
@@ -97,7 +97,7 @@ class Main extends Component {
                             );
                           }}
                         >
-                          TIP 0.1 ETH
+                          Gift 0.1 ETH
                         </button>
                       </li>
                     </ul>

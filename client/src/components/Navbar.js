@@ -19,7 +19,7 @@ class Navbar extends Component {
             className="d-inline-block align-top"
             alt=""
           />
-          Decentragram
+          Ethergram
         </a>
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
